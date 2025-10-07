@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        phoenix1: "hsl(var(--phoenix-primary))",
+        phoenix2: "hsl(var(--phoenix-secondary))",
+        midnight: "hsl(var(--midnight))",
+        charcoal: "hsl(var(--charcoal))",
+        offwhite: "hsl(var(--offwhite))",
+        cyan: "hsl(var(--cyan-accent))",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
