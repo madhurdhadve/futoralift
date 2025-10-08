@@ -284,7 +284,7 @@ const Index = () => {
                     <h3 className="font-poppins font-semibold text-xl">Madhur Dhadve</h3>
                     <p className="text-phoenix1 text-sm">Founder</p>
                     <p className="text-sm text-muted-foreground mt-2 max-w-sm">
-                      Visionary leader and full-stack creative mind who handles all technical aspects of client projects — from video editing and digital ads to websites, apps, and marketing systems. He ensures every campaign blends creativity with performance.
+                      Visionary leader and full-stack creative mind who handles all technical aspects of client projects from video editing and digital ads to websites, apps, and marketing systems. He ensures every campaign blends creativity with performance.
                     </p>
                   </div>
                 </div>
@@ -301,7 +301,7 @@ const Index = () => {
                     <h3 className="font-poppins font-semibold text-xl">Shreeyash Moholkar</h3>
                     <p className="text-cyan text-sm">Co-founder</p>
                     <p className="text-sm text-muted-foreground mt-2 max-w-sm">
-                      Client success and operations lead who manages client communication, project flow, and team coordination. Shreeyash bridges creativity with execution — making sure every project runs smoothly from concept to completion.
+                      Client success and operations lead who manages client communication, project flow, and team coordination. Shreeyash bridges creativity with execution making sure every project runs smoothly from concept to completion.
                     </p>
                   </div>
                 </div>
