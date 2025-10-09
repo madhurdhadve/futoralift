@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Target, Zap, TrendingUp, Palette, Mail, Phone, Instagram, Menu, X } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
+import blLogo from "@/assets/bl-logo.png";
 
 const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -134,9 +135,12 @@ const Index = () => {
         
         <div className="container max-w-6xl mx-auto relative z-10">
           <div className="text-center space-y-6 animate-fade-in">
-            <h1 className="font-poppins font-bold text-5xl md:text-6xl lg:text-7xl leading-tight">
-              BRAND<span className="text-phoenix1">L1FT</span>
-            </h1>
+            <div className="flex flex-col items-center gap-4">
+              <img src={blLogo} alt="BrandLift Logo" className="w-24 h-24 md:w-32 md:h-32 object-contain" />
+              <h1 className="font-poppins font-bold text-5xl md:text-6xl lg:text-7xl leading-tight">
+                BRAND<span className="text-phoenix1">L1FT</span>
+              </h1>
+            </div>
             <p className="text-3xl md:text-4xl font-semibold text-cyan">
               A NAME YOUR BRAND NEEDS
             </p>
