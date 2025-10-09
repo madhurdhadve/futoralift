@@ -167,8 +167,8 @@ const Index = () => {
         <div className="container max-w-6xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { label: "Brands Elevated", value: "150+" },
-              { label: "Impressions", value: "3.5M+" },
+              { label: "Brands Elevated", value: "15+" },
+              { label: "Impressions", value: "250k+" },
               { label: "Avg ROI", value: "285%" },
               { label: "Client Satisfaction", value: "98%" }
             ].map((stat, i) => (
@@ -330,7 +330,7 @@ const Index = () => {
                 </div>
               </span>
               
-              <span className="team-cofounders grid md:grid-cols-2 gap-8">
+              <span className="team-cofounders grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <div className="member flex flex-col items-center text-center space-y-4 group">
                   <div className="w-32 h-32 rounded-full bg-gradient-to-br from-phoenix1 to-cyan p-1 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan/50 transition-all">
                     <div className="w-full h-full rounded-full bg-charcoal flex items-center justify-center text-4xl font-bold">
