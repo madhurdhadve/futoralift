@@ -58,14 +58,14 @@ const Index = () => {
     <div className="min-h-screen bg-midnight text-offwhite font-inter">
       {/* Hidden SEO Content */}
       <div style={{ display: 'none' }}>
-        BrandLift by Madhur Dhadve, digital marketing agency, creative marketing solutions, marketing campaigns, social media marketing, business branding, BrandLift services, marketing strategy by Madhur Dhadve, digital marketing agency India, creative agency for businesses, performance marketing solutions, brand identity design, social media campaigns, digital advertising agency, marketing consultant, business growth strategies, creative content agency
+        FutoraLift by Madhur Dhadve, digital marketing agency, creative marketing solutions, marketing campaigns, social media marketing, business branding, FutoraLift services, marketing strategy by Madhur Dhadve, digital marketing agency India, creative agency for businesses, performance marketing solutions, brand identity design, social media campaigns, digital advertising agency, marketing consultant, business growth strategies, creative content agency
       </div>
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-midnight/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container max-w-6xl mx-auto px-6 md:px-12">
           <div className="flex items-center justify-between h-16">
-            <a href="#home" className="font-poppins font-bold text-xl text-phoenix1">BRANDL1FT</a>
-            
+            <a href="#home" className="font-poppins font-bold text-xl text-phoenix1">FUTORALIFT</a>
+
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className="hover:text-phoenix1 transition-colors">Home</a>
@@ -76,7 +76,7 @@ const Index = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <button 
+            <button
               className="md:hidden text-offwhite"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
@@ -88,36 +88,36 @@ const Index = () => {
           {mobileMenuOpen && (
             <div className="md:hidden absolute top-16 left-0 right-0 bg-midnight/98 border-b border-border">
               <div className="flex flex-col py-4">
-                <a 
-                  href="#home" 
+                <a
+                  href="#home"
                   className="px-6 py-3 hover:bg-phoenix1/10 hover:text-phoenix1 transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Home
                 </a>
-                <a 
-                  href="#why-choose-us" 
+                <a
+                  href="#why-choose-us"
                   className="px-6 py-3 hover:bg-phoenix1/10 hover:text-phoenix1 transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Why Us
                 </a>
-                <a 
-                  href="#packages" 
+                <a
+                  href="#packages"
                   className="px-6 py-3 hover:bg-phoenix1/10 hover:text-phoenix1 transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Packages
                 </a>
-                <a 
-                  href="#team" 
+                <a
+                  href="#team"
                   className="px-6 py-3 hover:bg-phoenix1/10 hover:text-phoenix1 transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Team
                 </a>
-                <a 
-                  href="#contact" 
+                <a
+                  href="#contact"
                   className="px-6 py-3 hover:bg-phoenix1/10 hover:text-phoenix1 transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -136,13 +136,13 @@ const Index = () => {
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-cyan/20 rounded-full blur-3xl animate-pulse" />
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-phoenix1/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }} />
         </div>
-        
+
         <div className="container max-w-6xl mx-auto relative z-10">
           <div className="text-center space-y-6 animate-fade-in">
             <div className="flex flex-col items-center gap-4">
-              <img src={blLogo} alt="BrandLift Logo" className="w-24 h-24 md:w-32 md:h-32 object-contain" />
+              <img src={blLogo} alt="FutoraLift Logo" className="w-24 h-24 md:w-32 md:h-32 object-contain" />
               <h1 className="font-poppins font-bold text-5xl md:text-6xl lg:text-7xl leading-tight">
-                BRAND<span className="text-phoenix1">L1FT</span>
+                FUTORA<span className="text-phoenix1">LIFT</span>
               </h1>
             </div>
             <p className="text-3xl md:text-4xl font-semibold text-cyan">
@@ -152,8 +152,8 @@ const Index = () => {
               Lifting Brands to New Heights 🚀
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-phoenix1 hover:bg-phoenix2 text-white shadow-lg hover:shadow-xl hover:shadow-phoenix1/50 transition-all active:scale-95"
                 onClick={scrollToContact}
               >
@@ -167,9 +167,9 @@ const Index = () => {
       {/* About Snapshot */}
       <section className="py-16 md:py-24 px-6 md:px-12 bg-charcoal/50">
         <div className="container max-w-6xl mx-auto text-center mb-12">
-          <h2 className="font-poppins font-bold text-4xl md:text-5xl mb-4">About BrandLift</h2>
+          <h2 className="font-poppins font-bold text-4xl md:text-5xl mb-4">About FutoraLift</h2>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            BrandLift is a creative marketing agency that helps businesses grow through storytelling, strategy, and digital innovation. We build strong brand identities, design impactful visuals, and manage digital presence that delivers real results.
+            FutoraLift is a creative marketing agency that helps businesses grow through storytelling, strategy, and digital innovation. We build strong brand identities, design impactful visuals, and manage digital presence that delivers real results.
           </p>
         </div>
         <div className="container max-w-6xl mx-auto">
@@ -245,8 +245,8 @@ const Index = () => {
                 features: ["15 Reels + 7 Carousels", "Full Strategy", "Free Awareness Campaign (₹12K ad spend)"]
               }
             ].map((pkg, i) => (
-              <Card 
-                key={i} 
+              <Card
+                key={i}
                 className={`relative ${pkg.recommended ? 'border-cyan shadow-xl shadow-cyan/20 scale-105' : 'border-border'} bg-charcoal hover:-translate-y-2 transition-all`}
               >
                 {pkg.recommended && (
@@ -270,7 +270,7 @@ const Index = () => {
                       </li>
                     ))}
                   </ul>
-                  <Button 
+                  <Button
                     className={`w-full ${pkg.recommended ? 'bg-cyan text-midnight hover:bg-cyan/90' : 'bg-phoenix1 hover:bg-phoenix2'}`}
                     onClick={scrollToContact}
                   >
@@ -336,33 +336,33 @@ const Index = () => {
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="member flex flex-col items-center text-center space-y-4 group">
                   <div className="w-32 h-32 rounded-full bg-gradient-to-br from-phoenix1 to-cyan p-1 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan/50 transition-all">
                     <div className="w-full h-full rounded-full bg-charcoal flex items-center justify-center text-4xl font-bold">
-                      SM
+                      YG
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-poppins font-semibold text-xl">Shreeyash Moholkar</h3>
+                    <h3 className="font-poppins font-semibold text-xl">Yuvraj Gour</h3>
                     <p className="text-cyan text-sm">Co-founder</p>
                     <p className="text-sm text-muted-foreground mt-2 max-w-sm">
-                      Client success and operations lead who manages client communication, project flow, and team coordination. Shreeyash bridges creativity with execution making sure every project runs smoothly from concept to completion.
+                      Creative strategist and design perfectionist focused on video editing, shoots, and delivering visually stunning, high-impact campaigns. Yuvraj brings ideas to life with precision, passion, and attention to every detail.
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="member flex flex-col items-center text-center space-y-4 group">
                   <div className="w-32 h-32 rounded-full bg-gradient-to-br from-phoenix1 to-cyan p-1 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-cyan/50 transition-all">
                     <div className="w-full h-full rounded-full bg-charcoal flex items-center justify-center text-4xl font-bold">
-                      RS
+                      AM
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-poppins font-semibold text-xl">Rushal Shinde</h3>
+                    <h3 className="font-poppins font-semibold text-xl">Aditya Mahure</h3>
                     <p className="text-cyan text-sm">Co-founder</p>
                     <p className="text-sm text-muted-foreground mt-2 max-w-sm">
-                      Creative strategist and design perfectionist focused on delivering visually stunning, high-impact campaigns. Rushal brings ideas to life with precision, passion, and attention to every detail.
+                      Client success and operations lead who manages client communication, project flow, and team coordination. Aditya bridges creativity with execution making sure every project runs smoothly from concept to completion.
                     </p>
                   </div>
                 </div>
@@ -386,9 +386,9 @@ const Index = () => {
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="space-y-2">
                     <Label htmlFor="name">Name</Label>
-                    <Input 
-                      id="name" 
-                      placeholder="Your name" 
+                    <Input
+                      id="name"
+                      placeholder="Your name"
                       className="bg-midnight border-border focus:border-phoenix1 focus:ring-phoenix1"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -397,10 +397,10 @@ const Index = () => {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email">Email</Label>
-                    <Input 
-                      id="email" 
-                      type="email" 
-                      placeholder="your@email.com" 
+                    <Input
+                      id="email"
+                      type="email"
+                      placeholder="your@email.com"
                       className="bg-midnight border-border focus:border-phoenix1 focus:ring-phoenix1"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -409,10 +409,10 @@ const Index = () => {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="phone">Phone</Label>
-                    <Input 
-                      id="phone" 
-                      type="tel" 
-                      placeholder="+91 98765 43210" 
+                    <Input
+                      id="phone"
+                      type="tel"
+                      placeholder="+91 98765 43210"
                       className="bg-midnight border-border focus:border-phoenix1 focus:ring-phoenix1"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
@@ -420,17 +420,17 @@ const Index = () => {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="message">Message</Label>
-                    <Textarea 
-                      id="message" 
-                      placeholder="Tell us about your project..." 
+                    <Textarea
+                      id="message"
+                      placeholder="Tell us about your project..."
                       className="bg-midnight border-border focus:border-phoenix1 focus:ring-phoenix1 min-h-32"
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       required
                     />
                   </div>
-                  <Button 
-                    type="submit" 
+                  <Button
+                    type="submit"
                     className="w-full bg-phoenix1 hover:bg-phoenix2 text-lg py-6"
                     disabled={isSubmitting}
                   >
@@ -439,7 +439,7 @@ const Index = () => {
                 </form>
               </CardContent>
             </Card>
-            
+
             <div className="space-y-6 flex flex-col justify-center">
               <h3 className="font-poppins font-semibold text-2xl">Contact Information</h3>
               <div className="space-y-4">
@@ -447,7 +447,7 @@ const Index = () => {
                   <Mail className="w-6 h-6 text-phoenix1 mt-1" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <a href="mailto:brandlift927@gmail.com" className="text-muted-foreground hover:text-phoenix1 transition-colors">brandlift927@gmail.com</a>
+                    <a href="mailto:futoralift927@gmail.com" className="text-muted-foreground hover:text-phoenix1 transition-colors">futoralift927@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -466,10 +466,10 @@ const Index = () => {
                   <div>
                     <p className="font-semibold">Social Media</p>
                     <div className="flex flex-col gap-2 text-muted-foreground">
-                      <span>@brandl1ft</span>
-                      <a 
-                        href="https://www.instagram.com/brandl1ft?igsh=dGUyY3lvaHE4bWxh" 
-                        target="_blank" 
+                      <span>@futoralift</span>
+                      <a
+                        href="https://www.instagram.com/futoralift?igsh=dGUyY3lvaHE4bWxh"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block"
                       >
@@ -491,7 +491,7 @@ const Index = () => {
         <div className="container max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h4 className="font-poppins font-bold text-xl text-phoenix1 mb-4">BRANDL1FT</h4>
+              <h4 className="font-poppins font-bold text-xl text-phoenix1 mb-4">FUTORALIFT</h4>
               <p className="text-sm text-muted-foreground">Lifting brands to new heights</p>
             </div>
             <div>
@@ -520,7 +520,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2025 BrandL1ft. All rights reserved</p>
+            <p>&copy; 2025 FutoraLift. All rights reserved</p>
           </div>
         </div>
       </footer>
