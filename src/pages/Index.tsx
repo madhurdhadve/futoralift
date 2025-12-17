@@ -455,8 +455,8 @@ const Index = () => {
                   <div>
                     <p className="font-semibold">Phone</p>
                     <div className="flex flex-col gap-1">
-                      <a href="tel:+918263002481" className="text-muted-foreground hover:text-phoenix1 transition-colors">+91 82630 02481</a>
-                      <a href="tel:+919527575373" className="text-muted-foreground hover:text-phoenix1 transition-colors">+91 95275 75373</a>
+                      <a href="tel:+919309312359" className="text-muted-foreground hover:text-phoenix1 transition-colors">+91 93093 12359</a>
+                      <a href="tel:+917887578006" className="text-muted-foreground hover:text-phoenix1 transition-colors">+91 78875 78006</a>
                       <a href="tel:+918452854044" className="text-muted-foreground hover:text-phoenix1 transition-colors">+91 84528 54044</a>
                     </div>
                   </div>
